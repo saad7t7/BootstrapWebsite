@@ -1,0 +1,501 @@
+
+.banner {
+    background: url(coverpic.jpg);
+    background-image: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861)), url("coverpic.jpg");
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    overflow: hidden;
+}
+
+
+.banner::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    clip-path: polygon(100% 50%, 0 100%, 100% 100%);
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.32);
+}
+
+.fa-solid.fa-gear,
+.fa-solid.fa-laptop-code,
+.fa-solid.fa-pencil {
+    color: #72C0E0;
+}
+.banner2 {
+    background: url(banner2.png);
+    background-image: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861)), url("banner2.png");
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: skew(0deg, -5deg) translateY(-120px);
+    object-fit: cover;
+}
+
+.banner2 .container-fluid {
+    padding: 0px 100px;
+    transform: skew(0deg, 5deg);
+    background-position: center;
+}
+
+.card {
+    border: transparent;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+}
+
+.card button {
+    display: block;
+    background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+    border-radius: 10px;
+    border: transparent;
+}
+/* MEDIA QUERIES STARTED FROM HERE */
+/* MEDIA SCREEN 300PX */
+@media(min-width:300px){
+    
+    .banner{
+        height: 700px;
+    }
+    .fa-solid.fa-gear,
+.fa-solid.fa-laptop-code,
+.fa-solid.fa-pencil {
+    color: #72C0E0;
+}
+.feature-device img {
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+.fa-solid.fa-lock,
+.fa-solid.fa-headset,
+.fas.fa-heart {
+    color:lightblue;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.feature{
+    height: 1400px;
+}
+.download h2 {
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+.card {
+    border: transparent;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+}
+
+.card button {
+    display: block;
+    background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+    border-radius: 10px;
+    border: transparent;
+}
+.GETINTOUCH container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.GETINTOUCH{
+    width: 100%;
+    height: 800px;
+    background-color: #F5F5F5;
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.get-txt {
+    text-align: center;   
+    margin-top: 50px;
+}
+
+
+.banner2{
+    height: 600px;
+}
+
+.sendmsg {
+    border: transparent;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+.sending{ 
+    font-size: small;
+    text-align: left;
+}
+
+.outer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+}
+}
+/* MEDIA SCREEN 576PX */
+@media(min-width:576px){
+    
+    .banner{
+        height: 600px;
+    }
+    .fa-solid.fa-gear,
+.fa-solid.fa-laptop-code,
+.fa-solid.fa-pencil {
+    color: #72C0E0;
+}
+.feature-device img {
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+.fa-solid.fa-lock,
+.fa-solid.fa-headset,
+.fas.fa-heart {
+    color:lightblue;
+    font-size: 30px;
+}
+.feature {
+    margin-top: 300px;
+    width: 100%;
+    height: 2100px;
+    background-color: #F5F5F5;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: skew(0deg, -5deg) translateY(-120px);
+}
+.insidefeature {
+    padding: 150px 200px;
+    transform: skew(0deg, 5deg);
+}
+.download h2 {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.download p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card {
+    border: transparent;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+}
+
+.card button {
+    display: block;
+    background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+    border-radius: 10px;
+    border: transparent;
+}
+.GETINTOUCH container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.GETINTOUCH{
+    width: 100%;
+    height: 800px;
+    background-color: #F5F5F5;
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.get-txt {
+    text-align: center;   
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.text-box {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.col-md-12 textarea {
+    width: 400px;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.banner2{
+    height: 600px;
+}
+
+.sendmsg {
+    border: transparent;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+.sending{ 
+    font-size: small;
+}
+
+.outer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+}
+}
+/* MEDIA SCREEN 786PX */
+@media(min-width:768px){
+    
+        .banner{
+            height: 500px;
+        }
+        .fa-solid.fa-gear,
+    .fa-solid.fa-laptop-code,
+    .fa-solid.fa-pencil {
+        color: #72C0E0;
+    }
+    .feature-device img {
+        display: block;
+        margin: auto;
+        height: 400px;
+    }
+    .fa-solid.fa-lock,
+    .fa-solid.fa-headset,
+    .fas.fa-heart {
+        color:lightblue;
+        font-size: 30px;
+    }
+    .feature {
+        margin-top: 300px;
+        width: 100%;
+        height: 1700px;
+        background-color: #F5F5F5;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transform: skew(0deg, -5deg) translateY(-120px);
+    }
+    .insidefeature {
+        padding: 150px 200px;
+        transform: skew(0deg, 5deg);
+    }
+    .download h2 {
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+    .download p {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .card {
+        border: transparent;
+        border-radius: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .card-title {
+        background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+    }
+    
+    .card button {
+        display: block;
+        background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+        border-radius: 10px;
+        border: transparent;
+    }
+    .GETINTOUCH container-fluid{
+        padding: 0px;
+        margin: 0px;
+    }
+    .GETINTOUCH{
+        width: 100%;
+        height: 800px;
+        background-color: #F5F5F5;
+        position: relative;
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+    .get-txt {
+        margin: 100px;   
+    }
+    
+    .text-box {
+        width: 500px;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .col-md-12 textarea {
+        width: 400px;
+        height: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    .sendmsg {
+        border: transparent;
+        width: 120px;
+        height: 30px;
+        border-radius: 5px;
+        padding-top: 5px;
+        margin-left: 50px;
+    }
+    .sending{ 
+        font-size: small;
+    }
+    
+    .outer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .footer{
+        background-color: black;
+    }
+}
+@media (min-width:1024px)
+{
+    .banner{
+        height: 500px;
+    }
+    .fa-solid.fa-gear,
+.fa-solid.fa-laptop-code,
+.fa-solid.fa-pencil {
+    color: #72C0E0;
+}
+.feature-device img {
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+.fa-solid.fa-lock,
+.fa-solid.fa-headset,
+.fas.fa-heart {
+    color:lightblue;
+    font-size: 30px;
+}
+.feature {
+    margin-top: 300px;
+    width: 100%;
+    height: 1000px;
+    background-color: #F5F5F5;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: skew(0deg, -5deg) translateY(-120px);
+}
+.insidefeature {
+    padding: 150px 200px;
+    transform: skew(0deg, 5deg);
+}
+.download h2 {
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.download p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card {
+    border: transparent;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+}
+
+.card button {
+    display: block;
+    background: linear-gradient(to right, rgba(15, 172, 230, 0.71), rgba(160, 243, 172, 0.861));
+    border-radius: 10px;
+    border: transparent;
+}
+.GETINTOUCH container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
+.GETINTOUCH{
+    width: 100%;
+    height: 800px;
+    background-color: #F5F5F5;
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.get-txt {
+    margin: 100px;   
+}
+
+.text-box {
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.col-md-12 textarea {
+    width: 400px;
+    height: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sendmsg {
+    border: transparent;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+.sending{ 
+    font-size: small;
+}
+
+.outer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer{
+    background-color: black;
+}
+
+}
